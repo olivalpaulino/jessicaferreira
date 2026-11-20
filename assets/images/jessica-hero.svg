@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="50%" stop-color="#0f0f11"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="yellowGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE600"/>
+      <stop offset="100%" stop-color="#FFAE00"/>
+    </linearGradient>
+    <linearGradient id="redGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF2B3B"/>
+      <stop offset="100%" stop-color="#B3001B"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="15" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="900" fill="url(#bgGrad)"/>
+  
+  <!-- Geometric Energy Lines -->
+  <circle cx="400" cy="450" r="320" fill="none" stroke="#FFE600" stroke-width="2" stroke-opacity="0.2" stroke-dasharray="8 8"/>
+  <circle cx="400" cy="450" r="380" fill="none" stroke="#FF2B3B" stroke-width="2" stroke-opacity="0.15"/>
+  <polygon points="100,200 700,150 750,750 150,800" fill="none" stroke="#FFE600" stroke-width="1.5" stroke-opacity="0.1"/>
+
+  <!-- Glowing Aura -->
+  <circle cx="400" cy="420" r="180" fill="#FFE600" fill-opacity="0.12" filter="url(#glow)"/>
+  <circle cx="400" cy="350" r="120" fill="#FF2B3B" fill-opacity="0.1" filter="url(#glow)"/>
+
+  <!-- Stylized Trainer Silhouette / Figure -->
+  <g transform="translate(400, 430) scale(0.95)" text-anchor="middle">
+    <!-- Body Shape -->
+    <!-- Head -->
+    <circle cx="0" cy="-210" r="50" fill="url(#yellowGlow)"/>
+    <!-- Ponytail / Hair Motion -->
+    <path d="M 25 -230 Q 80 -250 100 -200 Q 80 -180 35 -195 Z" fill="#FFE600" opacity="0.9"/>
+    <!-- Neck -->
+    <rect x="-18" y="-165" width="36" height="35" rx="10" fill="#FFE600"/>
+    <!-- Torso / Athletic Top -->
+    <path d="M -70 -130 L 70 -130 L 50 -10 L -50 -10 Z" fill="url(#redGlow)"/>
+    <!-- Midriff / Waist -->
+    <path d="M -45 -10 L 45 -10 L 40 50 L -40 50 Z" fill="#FFE600" opacity="0.85"/>
+    <!-- Legs / Leggings -->
+    <path d="M -42 50 L -10 50 L -15 250 L -45 240 Z" fill="#18181b" stroke="#FF2B3B" stroke-width="4"/>
+    <path d="M 10 50 L 42 50 L 45 240 L 15 250 Z" fill="#18181b" stroke="#FFE600" stroke-width="4"/>
+    <!-- Shoes -->
+    <path d="M -50 240 L -15 250 L -10 270 L -60 270 Z" fill="#FFE600"/>
+    <path d="M 15 250 L 50 240 L 60 270 L 10 270 Z" fill="#FF2B3B"/>
+    <!-- Energetic Arms in Rhythm Pose -->
+    <path d="M -68 -125 Q -140 -90 -160 -160" fill="none" stroke="url(#yellowGlow)" stroke-width="26" stroke-linecap="round"/>
+    <path d="M 68 -125 Q 140 -160 160 -80" fill="none" stroke="url(#redGlow)" stroke-width="26" stroke-linecap="round"/>
+  </g>
+
+  <!-- Coach Badge Overlay -->
+  <rect x="250" y="700" width="300" height="60" rx="30" fill="#000000" stroke="#FFE600" stroke-width="3"/>
+  <text x="400" y="738" font-family="'Montserrat', sans-serif" font-weight="900" font-size="22" fill="#FFE600" text-anchor="middle" letter-spacing="3">COACH RITBOX</text>
+  <text x="400" y="790" font-family="'Montserrat', sans-serif" font-weight="600" font-size="18" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">JÉSSICA FERREIRA</text>
+  <text x="400" y="820" font-family="'Montserrat', sans-serif" font-weight="400" font-size="14" fill="#A1A1AA" text-anchor="middle">Foto Ilustrativa • Substitua por sua foto oficial</text>
+</svg>

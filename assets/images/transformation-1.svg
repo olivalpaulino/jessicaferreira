@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sampleBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141416"/>
+      <stop offset="100%" stop-color="#0a0a0b"/>
+    </linearGradient>
+    <linearGradient id="yellowText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFE600"/>
+      <stop offset="100%" stop-color="#FFB703"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="20" fill="url(#sampleBg)" stroke="#262626" stroke-width="2"/>
+  
+  <!-- Left Side: Antes -->
+  <rect x="25" y="25" width="260" height="350" rx="14" fill="#1c1c1f" stroke="#FF2B3B" stroke-width="2" stroke-opacity="0.5"/>
+  <rect x="45" y="45" width="80" height="28" rx="6" fill="#FF2B3B"/>
+  <text x="85" y="64" font-family="'Montserrat', sans-serif" font-weight="700" font-size="14" fill="#FFFFFF" text-anchor="middle">ANTES</text>
+  
+  <circle cx="155" cy="160" r="55" fill="#2d2d32"/>
+  <!-- Silhouette Antes -->
+  <path d="M 125 180 Q 110 240 120 280 L 190 280 Q 200 240 185 180 Z" fill="#3f3f46"/>
+  <circle cx="155" cy="140" r="28" fill="#52525b"/>
+  <text x="155" y="325" font-family="'Montserrat', sans-serif" font-weight="600" font-size="16" fill="#A1A1AA" text-anchor="middle">Desânimo &amp; Sedentarismo</text>
+
+  <!-- Right Side: Depois -->
+  <rect x="315" y="25" width="260" height="350" rx="14" fill="#1c1c1f" stroke="#FFE600" stroke-width="2" stroke-opacity="0.8"/>
+  <rect x="335" y="45" width="85" height="28" rx="6" fill="#FFE600"/>
+  <text x="377" y="64" font-family="'Montserrat', sans-serif" font-weight="800" font-size="14" fill="#000000" text-anchor="middle">DEPOIS</text>
+
+  <circle cx="445" cy="160" r="55" fill="#2a2505"/>
+  <!-- Silhouette Depois Fit -->
+  <path d="M 425 180 Q 430 220 415 280 L 475 280 Q 460 220 465 180 Z" fill="url(#yellowText)"/>
+  <circle cx="445" cy="140" r="26" fill="#FFE600"/>
+  <text x="445" y="315" font-family="'Montserrat', sans-serif" font-weight="800" font-size="18" fill="#FFE600" text-anchor="middle">-12kg em 60 Dias</text>
+  <text x="445" y="340" font-family="'Montserrat', sans-serif" font-weight="600" font-size="14" fill="#FFFFFF" text-anchor="middle">Autoestima Renovada ✨</text>
+</svg>

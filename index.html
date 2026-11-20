@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Jéssica Ferreira | Coach RitBox Digital & Presencial - Emagreça no Ritmo</title>
+  
+  <!-- SEO & Metatags -->
+  <meta name="description" content="Emagreça e recupere sua autoestima com treinos dinâmicos de RitBox com Jéssica Ferreira. Aulas digitais e presenciais com alta queima calórica e muita música!">
+  <meta name="keywords" content="Ritbox, Jéssica Ferreira, Emagrecimento, Treino Funcional Dançado, Coach Ritbox, Perda de Peso, Autoestima">
+  <meta name="author" content="Olival Paulino">
+  
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jéssica Ferreira | Coach RitBox Digital & Presencial">
+  <meta property="og:description" content="Emagreça com diversão, ritmo e intensidade! Conheça o método RitBox com a Coach Jéssica Ferreira.">
+  <meta property="og:image" content="assets/images/jessica-hero.svg">
+
+  <!-- Favicon Dinâmico SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23FFE600'/><text y='70' x='50' font-size='60' font-family='sans-serif' font-weight='900' text-anchor='middle' fill='%23000'>JF</text></svg>">
+
+  <!-- CSS Principal -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER / BARRA DE NAVEGAÇÃO SUPERIOR
+       ========================================================================== -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="#inicio" class="logo" aria-label="Jéssica Ferreira Home">
+        <div class="logo-symbol">JF</div>
+        <div class="logo-text">
+          <span class="logo-name">JÉSSICA FERREIRA</span>
+          <span class="logo-sub">COACH RITBOX</span>
+        </div>
+      </a>
+
+      <!-- Menu Desktop -->
+      <nav class="nav-menu" aria-label="Navegação Principal">
+        <a href="#inicio" class="nav-link">Início</a>
+        <a href="#metodo" class="nav-link">O Método</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#conheca-trabalho" class="nav-link">Na Prática</a>
+        <a href="#desafios" class="nav-link">Desafios</a>
+        <a href="#resultados" class="nav-link">Resultados</a>
+        <a href="#duvidas" class="nav-link">Dúvidas</a>
+      </nav>
+
+      <!-- Botão Header Desktop -->
+      <div class="header-cta">
+        <a href="https://wa.me/5582981847421?text=Ol%C3%A1%20J%C3%A9ssica!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20treinos%20de%20Ritbox." target="_blank" rel="noopener" class="btn btn-primary" style="padding: 10px 22px; font-size: 0.88rem; min-height: 44px;">
+          Falar no WhatsApp
+        </a>
+      </div>
+
+      <!-- Botão Menu Mobile Hamburguer -->
+      <button class="mobile-toggle" aria-label="Abrir menu móvel" id="open-menu-btn">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Overlay do Menu Mobile -->
+  <div class="mobile-drawer-overlay" id="drawer-overlay"></div>
+
+  <!-- Drawer Lateral para Celular -->
+  <aside class="mobile-nav-drawer" id="mobile-drawer" aria-label="Menu Mobile">
+    <div class="mobile-drawer-header">
+      <div class="logo">
+        <div class="logo-symbol">JF</div>
+        <div class="logo-text">
+          <span class="logo-name">JÉSSICA FERREIRA</span>
+          <span class="logo-sub">COACH RITBOX</span>
+        </div>
+      </div>
+      <button class="mobile-close-btn" id="close-drawer-btn" aria-label="Fechar menu">✕</button>
+    </div>
+
+    <div class="mobile-nav-links">
+      <a href="#inicio" class="mobile-nav-link">Início</a>
+      <a href="#metodo" class="mobile-nav-link">O Método RitBox</a>
+      <a href="#sobre" class="mobile-nav-link">Sobre a Jéssica</a>
+      <a href="#conheca-trabalho" class="mobile-nav-link">Conheça o Trabalho</a>
+      <a href="#desafios" class="mobile-nav-link">Desafios & Programas</a>
+      <a href="#resultados" class="mobile-nav-link">Resultados & Prova Social</a>
+      <a href="#duvidas" class="mobile-nav-link">Dúvidas Frequentes</a>
+      <a href="#contato" class="mobile-nav-link">Contato</a>
+    </div>
+
+    <div class="mobile-drawer-footer">
+      <a href="https://wa.me/5582981847421?text=Ol%C3%A1%20J%C3%A9ssica!%20Vim%20pelo%20site%20e%20gostaria%20de%20come%C3%A7ar%20o%20Ritbox." target="_blank" rel="noopener" class="btn btn-whatsapp" style="width: 100%;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Chamar no WhatsApp
+      </a>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-bg-accent"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge-wrap">
+            <span class="hero-badge glow-yellow">🔥 COACH RITBOX OFICIAL</span>
+            <span class="hero-badge">DIGITAL & PRESENCIAL</span>
+          </div>
+
+          <h1 class="hero-title">
+            EMAGREÇA E RECUPERE SUA <span class="text-yellow">AUTOESTIMA</span> COM RITMO!
+          </h1>
+
+          <p class="hero-description">
+            Treino dinâmico, envolvente e motivador. Diga adeus à monotonia da musculação tradicional e conquiste o corpo que você sempre sonhou através do método <strong>RitBox</strong> com a <strong>Coach Jéssica Ferreira</strong>.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="https://wa.me/5582981847421?text=Ol%C3%A1%20J%C3%A9ssica!%20Quero%20come%C3%A7ar%20a%20treinar%20Ritbox%20com%20voc%C3%AA." target="_blank" rel="noopener" class="btn btn-primary">
+              <span>QUERO COMEÇAR AGORA</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+
+            <a href="#conheca-trabalho" class="btn btn-outline">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              <span>Ver Treino em Ação</span>
+            </a>
+          </div>
+
+          <!-- Métricas de Impacto -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number" data-target="500" data-prefix="+">+500</span>
+              <span class="stat-label">Vidas Transformadas</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="1000" data-prefix="Até " data-suffix="kcal">Até 1000kcal</span>
+              <span class="stat-label">Por Aula Realizada</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="100" data-suffix="%">100%</span>
+              <span class="stat-label">Energia & Motivação</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Foto de Destaque / Frame Estilizado -->
+        <div class="hero-image-wrap">
+          <div class="hero-card-frame">
+            <!-- 
+              NOTA PARA O OLIVAL: 
+              Substitua 'assets/images/jessica-hero.svg' pela foto oficial da Jéssica Ferreira em formato .jpg ou .png 
+            -->
+            <img src="assets/images/jessica-hero.svg" alt="Jéssica Ferreira - Coach RitBox" width="440" height="500" loading="eager">
+          </div>
+
+          <!-- Card Flutuante de Queima Calórica -->
+          <div class="hero-floating-card">
+            <div class="floating-icon">🔥</div>
+            <div class="floating-text">
+              <strong>RitBox queima gordura</strong>
+              <span>Treino Dinâmico & Divertido</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SEÇÃO: O QUE É O RITBOX
+         ========================================================================== -->
+    <section class="section-ritbox" id="metodo">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">O Método Revolucionário</span>
+          <h2 class="section-title">O QUE É O <span class="text-yellow">RITBOX</span>?</h2>
+          <p class="section-subtitle">
+            Uma modalidade esportiva explosiva que combina treino funcional, aeróbico e ritmos musicais empolgantes para acelerar seu metabolismo.
+          </p>
+        </div>
+
+        <div class="ritbox-intro-box">
+          <h3>ESQUEÇA OS TREINOS CHATOS E REPETITIVOS!</h3>
+          <p>
+            O RitBox foi criado para você que não gosta de academias convencionais ou não tem paciência para séries longas e monótonas. Aqui, cada movimento (agachamentos, polichinelos, saltos, abdominais) é executado sincronizado com as batidas de músicas contagiantes. Você treina com alegria e queima até <strong>1.000 calorias por sessão</strong>, secando a barriga e tonificando o corpo todo!
+          </p>
+        </div>
+
+        <div class="ritbox-pillars-grid">
+          <div class="pillar-card">
+            <div class="pillar-icon-box">⚡</div>
+            <h3 class="pillar-title">QUEIMA ACELERADA</h3>
+            <p class="pillar-text">
+              Efeito EPOC ativado: seu metabolismo continua queimando gordura por horas mesmo depois de terminar a aula.
+            </p>
+          </div>
+
+          <div class="pillar-card card-red">
+            <div class="pillar-icon-box">🎵</div>
+            <h3 class="pillar-title">RITMO & ENERGIA</h3>
+            <p class="pillar-text">
+              Músicas atuais e batidas animadas que fazem o tempo voar. Treinar deixa de ser uma obrigação e vira o melhor momento do seu dia.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon-box">✨</div>
+            <h3 class="pillar-title">RESGATE DA AUTOESTIMA</h3>
+            <p class="pillar-text">
+              Além de perder peso e medidas, você recupera a confiança no espelho, a disposição diária e o amor pelo próprio corpo.
+            </p>
+          </div>
+
+          <div class="pillar-card card-red">
+            <div class="pillar-icon-box">📱</div>
+            <h3 class="pillar-title">DIGITAL OU PRESENCIAL</h3>
+            <p class="pillar-text">
+              Flexibilidade total: treine no conforto da sua sala pelo celular/TV ou venha sentir a energia contagiante das turmas presenciais.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SEÇÃO: SOBRE A JÉSSICA FERREIRA
+         ========================================================================== -->
+    <section class="section-about" id="sobre">
+      <div class="container about-grid">
+        <div class="about-image-column">
+          <div class="about-photo-wrapper">
+            <!-- 
+              NOTA PARA O OLIVAL: 
+              Substitua pela foto da Jéssica treinando ou em pose profissional 
+            -->
+            <img src="assets/images/jessica-hero.svg" alt="Jéssica Ferreira Coach" width="480" height="560" loading="lazy">
+          </div>
+          <div class="about-badge-experience">
+            <span class="exp-number">100%</span>
+            <span class="exp-text">Dedicada a Você</span>
+          </div>
+        </div>
+
+        <div class="about-content-column">
+          <span class="section-tag tag-red">Conheça Sua Treinadora</span>
+          <h2 class="about-heading">
+            OLÁ, EU SOU A <span class="text-yellow">JÉSSICA FERREIRA</span>!
+          </h2>
+
+          <p class="about-lead">
+            Profissional de Educação Física e Coach RitBox Digital e Presencial, apaixonada por transformar vidas através do movimento e da alegria.
+          </p>
+
+          <p class="about-text">
+            Minha missão não é apenas fazer você perder quilos na balança, mas te provar que o exercício físico pode ser leve, prazeroso e libertador. Sei como a rotina corrida e a falta de motivação podem nos afastar do autocuidado. Por isso, utilizo o método <strong>RitBox</strong> como ferramenta para devolver o brilho nos olhos e a saúde a cada uma das minhas alunas.
+          </p>
+
+          <div class="about-features-list">
+            <div class="about-feature-item">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Coach Oficial Credenciada RitBox</span>
+            </div>
+            <div class="about-feature-item">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Acompanhamento Personalizado</span>
+            </div>
+            <div class="about-feature-item">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Metodologia para Iniciantes ao Avançado</span>
+            </div>
+            <div class="about-feature-item">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Foco em Queima Calórica e Tonificação</span>
+            </div>
+          </div>
+
+          <!-- Redes Sociais da Jéssica -->
+          <div class="about-social-strip">
+            <a href="https://www.instagram.com/jessicaferreirarit/" target="_blank" rel="noopener" class="social-pill" aria-label="Instagram Jéssica Ferreira">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+              <span>@jessicaferreirarit</span>
+            </a>
+
+            <a href="https://www.youtube.com/@jessicaferreirarit" target="_blank" rel="noopener" class="social-pill social-yt" aria-label="Canal YouTube Jéssica Ferreira">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              <span>Canal no YouTube</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SEÇÃO: CONHEÇA O MEU TRABALHO (VÍDEO SHORTS COM AUTOPLAY)
+         ========================================================================== -->
+    <section class="section-work-shorts" id="conheca-trabalho">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Veja Na Prática</span>
+          <h2 class="section-title">CONHEÇA O MEU <span class="text-yellow">TRABALHO</span></h2>
+          <p class="section-subtitle">
+            Sinta o ritmo e a vibração de uma aula real de RitBox! O vídeo inicia automaticamente quando você chega aqui.
+          </p>
+        </div>
+
+        <div class="shorts-presentation-wrapper">
+          <!-- Coluna Explicativa -->
+          <div class="shorts-info-col">
+            <span class="section-tag tag-red">Treine de Onde Quiser</span>
+            <h3 style="font-family: var(--font-display); font-size: clamp(2rem, 3.5vw, 2.7rem); line-height: 1.1; margin-bottom: 15px;">
+              DIVERSÃO QUE <span class="text-yellow">SECA DE VERDADE</span>!
+            </h3>
+            <p style="color: var(--color-gray-200); font-size: 1rem; line-height: 1.7;">
+              No ritmo da música, você trabalha pernas, glúteos, abdômen e queima gordura sem perceber o esforço doloroso de treinos monótonos.
+            </p>
+
+            <div class="shorts-benefits-list">
+              <div class="shorts-benefit-box">
+                <div>
+                  <h4>Coreografias Fáceis de Acompanhar</h4>
+                  <p>Não precisa ser dançarina profissional! As sequências são simples e progressivas.</p>
+                </div>
+              </div>
+              <div class="shorts-benefit-box border-red">
+                <div>
+                  <h4>Zero Impacto nas Articulações</h4>
+                  <p>Exercícios funcionais adaptáveis para respeitar os seus limites.</p>
+                </div>
+              </div>
+              <div class="shorts-benefit-box">
+                <div>
+                  <h4>Resultados Visíveis em Poucas Semanas</h4>
+                  <p>Com constância de 20 a 35 minutos por dia, sinta a diferença nas roupas.</p>
+                </div>
+              </div>
+            </div>
+
+            <a href="https://www.youtube.com/@jessicaferreirarit" target="_blank" rel="noopener" class="btn btn-fire">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              <span>Inscrever no Canal do YouTube</span>
+            </a>
+          </div>
+
+          <!-- Coluna com o Mockup de Celular / Shorts 9:16 -->
+          <div class="shorts-phone-column">
+            <div class="shorts-phone-mockup">
+              <!-- Notch do smartphone -->
+              <div class="phone-notch">
+                <span class="phone-speaker"></span>
+                <span class="phone-cam"></span>
+              </div>
+
+              <!-- Container Proporção 9:16 (Dimensão de Shorts) -->
+              <div class="shorts-screen-container">
+                <div class="shorts-iframe-wrapper">
+                  <!-- 
+                    ================================================================
+                    INSTRUÇÃO PARA O OLIVAL PAULINO:
+                    Troque o ID 'dQw4w9WgXcQ' abaixo pelo ID do vídeo do Shorts do YouTube 
+                    da Jéssica Ferreira (Exemplo: 5e_0p_f786E)
+                    Ou configure direto na primeira linha do arquivo js/main.js
+                    ================================================================
+                  -->
+                  <div id="youtube-shorts-player" data-video-id="dQw4w9WgXcQ"></div>
+                </div>
+
+                <!-- Controles Flutuantes / Status de Autoplay -->
+                <div class="shorts-floating-controls">
+                  <div class="shorts-status-pill">
+                    <span class="shorts-pulse-dot"></span>
+                    <span id="shorts-status-text">Treinando Agora 🔥</span>
+                  </div>
+
+                  <!-- Botão de Ativar o Som -->
+                  <button id="btn-toggle-audio" class="shorts-audio-btn" aria-label="Ativar ou desativar áudio">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><line x1="23" y1="9" x2="17" y2="15"></line><line x1="17" y1="9" x2="23" y2="15"></line></svg>
+                    <span>Ativar Ritmo (Áudio) 🔊</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <p class="shorts-edit-helper">
+              * O vídeo inicia automaticamente sem som (exigência do navegador) e você pode ligar o áudio no botão acima.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SEÇÃO: DESAFIOS E PROGRAMAS DE TREINO
+         ========================================================================== -->
+    <section class="section-challenges" id="desafios">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag tag-red">Escolha Sua Modalidade</span>
+          <h2 class="section-title">DESAFIOS & <span class="text-yellow">PROGRAMAS</span></h2>
+          <p class="section-subtitle">
+            Formatos flexíveis criados para se encaixar na sua rotina e transformar o seu estilo de vida.
+          </p>
+        </div>
+
+        <div class="challenges-grid">
+          <!-- Card 1: Desafio Seca Ritbox (Destaque) -->
+          <div class="challenge-card featured">
+            <span class="challenge-ribbon">🔥 Mais Procurado</span>
+            <div class="challenge-header">
+              <span class="challenge-type">Programa Intensivo</span>
+              <h3 class="challenge-title">DESAFIO 21 DIAS SECA RITBOX</h3>
+              <p class="challenge-desc">
+                O acelerador definitivo para secar gordura abdominal e dar um choque no metabolismo em apenas 3 semanas.
+              </p>
+            </div>
+
+            <div class="challenge-features">
+              <div class="challenge-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Treinos diários gravados em alta definição</span>
+              </div>
+              <div class="challenge-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Apenas 20 a 30 minutos por dia</span>
+              </div>
+              <div class="challenge-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Grupo VIP de alunas com suporte da Jéssica</span>
+              </div>
+              <div class="challenge-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Desafios semanais e controle de medidas</span>
+              </div>
+            </div>
+
+            <div class="challenge-footer">
+              <a href="https://wa.me/5582981847421?text=Ol%C3%A1%20J%C3%A9ssica!%20Quero%20entrar%20no%20Desafio%2021%20Dias%20Seca%20Ritbox." target="_blank" rel="noopener" class="btn btn-primary" style="width: 100%;">
+                Entrar no Desafio 21 Dias
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2: Ritbox Digital -->
+          <div class="challenge-card">
+            <div class="challenge-header">
+              <span class="challenge-type">Treino Online</span>
+              <h3 class="challenge-title">RITBOX DIGITAL ONLINE</h3>
+              <p class="challenge-desc">
+                Liberdade para treinar de qualquer lugar do Brasil e do mundo, no seu horário e pelo celular.
+              </p>
+            </div>
+
+            <div class="challenge-features">
+              <div class="challenge-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Acesso à plataforma de treinos exclusivos</span>
+              </div>
+              <div class="challenge-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Aulas ao vivo periódicas com a Jéssica</span>
+              </div>
+              <div class="challenge-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Planilhas de consistência e motivação</span>
+              </div>
+              <div class="challenge-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Suporte direto via WhatsApp para tirar dúvidas</span>
+              </div>
+            </div>
+
+            <div class="challenge-footer">
+              <a href="https://wa.me/5582981847421?text=Ol%C3%A1%20J%C3%A9ssica!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Ritbox%20Digital." target="_blank" rel="noopener" class="btn btn-outline" style="width: 100%;">
+                Quero o Ritbox Digital
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 3: Aulas Presenciais -->
+          <div class="challenge-card">
+            <div class="challenge-header">
+              <span class="challenge-type">Presencial</span>
+              <h3 class="challenge-title">TURMAS & AULAS PRESENCIAIS</h3>
+              <p class="challenge-desc">
+                Sinta toda a vibração coletiva, a troca de energia ao vivo e o calor de uma turma motivada.
+              </p>
+            </div>
+
+            <div class="challenge-features">
+              <div class="challenge-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Aulas dinâmicas com correção postural em tempo real</span>
+              </div>
+              <div class="challenge-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Espaço preparado com som de alta potência</span>
+              </div>
+              <div class="challenge-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Comunidade acolhedora e novas amizades</span>
+              </div>
+              <div class="challenge-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Opção de Personal RitBox individual</span>
+              </div>
+            </div>
+
+            <div class="challenge-footer">
+              <a href="https://wa.me/5582981847421?text=Ol%C3%A1%20J%C3%A9ssica!%20Quero%20saber%20locais%20e%20hor%C3%A1rios%20das%20aulas%20presenciais." target="_blank" rel="noopener" class="btn btn-outline" style="width: 100%;">
+                Consultar Horários Presenciais
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SEÇÃO: PROVA SOCIAL & DEPOIMENTOS
+         ========================================================================== -->
+    <section class="section-social-proof" id="resultados">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Histórias Reais</span>
+          <h2 class="section-title">PROVA SOCIAL & <span class="text-yellow">RESULTADOS</span></h2>
+          <p class="section-subtitle">
+            Veja o que as alunas da Coach Jéssica Ferreira conquistaram com dedicação e o método RitBox.
+          </p>
+        </div>
+
+        <!-- Cards de Transformação Visual Antes/Depois -->
+        <div class="proof-showcase-grid">
+          <div class="transformation-card">
+            <div class="transformation-img-box">
+              <img src="assets/images/transformation-1.svg" alt="Antes e depois de aluna Ritbox" width="600" height="400" loading="lazy">
+            </div>
+            <div class="transformation-details">
+              <div class="transformation-meta">
+                <span class="student-name">Camila S. (34 anos)</span>
+                <span class="loss-badge">-12 KG EM 60 DIAS</span>
+              </div>
+              <p class="student-quote">
+                "Eu já tinha desistido de academias comuns. Achava tudo muito chato. O Ritbox com a Jéssica me devolveu a vontade de viver e a disposição para brincar com meus filhos!"
+              </p>
+            </div>
+          </div>
+
+          <div class="transformation-card">
+            <div class="transformation-img-box">
+              <img src="assets/images/transformation-1.svg" alt="Antes e depois de aluna Ritbox 2" width="600" height="400" loading="lazy">
+            </div>
+            <div class="transformation-details">
+              <div class="transformation-meta">
+                <span class="student-name">Mariana B. (29 anos)</span>
+                <span class="loss-badge">-8 KG EM 30 DIAS</span>
+              </div>
+              <p class="student-quote">
+                "Entrei no Desafio 21 dias sem acreditar muito e o resultado foi surreal. Reduzi 3 números no jeans e hoje não fico sem as aulas da Jéssica!"
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grade de Depoimentos em Texto -->
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              "A energia da Jéssica é sem igual! Ela incentiva cada aluna como se fosse única. As aulas passam voando e quando vejo já queimei 700 calorias!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">AL</div>
+              <div class="author-info">
+                <strong>Ana Lúcia</strong>
+                <span>Aluna Presencial</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              "Treino direto de casa pelo celular. Minha autoestima era zero após a gestação, e com o Ritbox da Jéssica me reencontrei. Super indico!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">PF</div>
+              <div class="author-info">
+                <strong>Patrícia França</strong>
+                <span>Aluna Digital</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              "O melhor investimento que fiz na minha saúde mental e física este ano. Treino animado, sem dor articular e com resultados reais."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">RF</div>
+              <div class="author-info">
+                <strong>Renata Fontes</strong>
+                <span>Desafio 21 Dias</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SEÇÃO: PERGUNTAS FREQUENTES (FAQ)
+         ========================================================================== -->
+    <section class="section-faq" id="duvidas">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag tag-red">Tire Suas Dúvidas</span>
+          <h2 class="section-title">PERGUNTAS <span class="text-yellow">FREQUENTES</span></h2>
+          <p class="section-subtitle">
+            Tudo o que você precisa saber antes de dar o primeiro passo rumo à sua transformação.
+          </p>
+        </div>
+
+        <div class="faq-accordion">
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Eu nunca treinei ou dancei antes. Consigo acompanhar o RitBox?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Com certeza! As aulas da Jéssica são pensadas para todos os níveis, desde quem nunca pisou em uma academia até os mais avançados. Os passos são repetidos de maneira intuitiva e a cada aula você se sente mais confiante e ritmada.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Preciso de equipamentos ou pesos para treinar?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Não! O método RitBox utiliza o peso do próprio corpo em movimentos calistênicos, funcionais e aeróbicos. Você só precisa de um tênis confortável, uma garrafinha de água e muita disposição para suar a camisa.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Como funciona o RitBox Digital / Online?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Você recebe acesso imediato a uma área com todas as aulas gravadas em altíssima qualidade de vídeo e som. Você pode assistir na Smart TV, no celular, tablet ou computador na hora que quiser do seu dia, além de suporte direto via WhatsApp com a própria Jéssica.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Quanto tempo dura cada aula de treino?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                As aulas variam entre 25 a 45 minutos. Como a metodologia trabalha em blocos de alta intensidade e ritmo contínuo, esse tempo é ideal para uma queima extrema de gordura sem sobrecarregar sua rotina.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Como faço para me inscrever ou saber os valores?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Basta clicar em qualquer botão do WhatsApp deste site e falar diretamente com a Jéssica! Ela vai tirar todas as suas dúvidas, entender seus objetivos e te indicar o melhor plano ou desafio para o seu perfil.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SEÇÃO: CONTATOS & CTA FINAL
+         ========================================================================== -->
+    <section class="section-contact" id="contato">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-grid">
+            <div class="contact-content">
+              <span class="section-tag">Dê o Primeiro Passo</span>
+              <h3>SUA NOVA VERSÃO <span class="text-yellow">COMEÇA HOJE</span>!</h3>
+              <p>
+                Não espere a próxima segunda-feira para recuperar sua autoestima e transformar sua saúde. Fale comigo agora mesmo e agende sua primeira aula de RitBox!
+              </p>
+
+              <div class="contact-channels">
+                <a href="https://wa.me/5582981847421?text=Ol%C3%A1%20J%C3%A9ssica!%20Vim%20pelo%20site%20e%20gostaria%20de%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener" class="contact-channel-item">
+                  <div class="channel-icon ic-wa">💬</div>
+                  <div class="channel-info">
+                    <strong>WhatsApp Jéssica Ferreira</strong>
+                    <span>(82) 98184-7421</span>
+                  </div>
+                </a>
+
+                <a href="https://www.instagram.com/jessicaferreirarit/" target="_blank" rel="noopener" class="contact-channel-item">
+                  <div class="channel-icon ic-ig">📸</div>
+                  <div class="channel-info">
+                    <strong>Instagram Oficial</strong>
+                    <span>@jessicaferreirarit</span>
+                  </div>
+                </a>
+
+                <a href="https://www.youtube.com/@jessicaferreirarit" target="_blank" rel="noopener" class="contact-channel-item">
+                  <div class="channel-icon ic-yt">▶️</div>
+                  <div class="channel-info">
+                    <strong>Canal no YouTube</strong>
+                    <span>@jessicaferreirarit</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- Card de Ação Direta -->
+            <div class="contact-action-card">
+              <h4>VAMOS TREINAR JUNTAS?</h4>
+              <p>Clique no botão abaixo para conversar comigo no WhatsApp em tempo real:</p>
+              
+              <a href="https://wa.me/5582981847421?text=Ol%C3%A1%20J%C3%A9ssica!%20Quero%20come%C3%A7ar%20a%20treinar%20Ritbox%20com%20voc%C3%AA." target="_blank" rel="noopener" class="btn btn-whatsapp" style="width: 100%; font-size: 1.05rem;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                <span>Falar no WhatsApp Agora</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       RODAPÉ (FOOTER)
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-symbol">JF</div>
+            <div class="logo-text">
+              <span class="logo-name">JÉSSICA FERREIRA</span>
+              <span class="logo-sub">COACH RITBOX</span>
+            </div>
+          </div>
+          <p>
+            Profissional de Educação Física. Treinos de emagrecimento dinâmicos com o método RitBox, resgatando autoestima e saúde de mulheres pelo mundo.
+          </p>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-heading">Navegação Rápida</h4>
+          <div class="footer-links">
+            <a href="#inicio" class="footer-link">Início</a>
+            <a href="#metodo" class="footer-link">O Método RitBox</a>
+            <a href="#sobre" class="footer-link">Sobre a Jéssica</a>
+            <a href="#conheca-trabalho" class="footer-link">Vídeo na Prática</a>
+            <a href="#desafios" class="footer-link">Desafios e Programas</a>
+            <a href="#resultados" class="footer-link">Resultados</a>
+          </div>
+        </div>
+
+        <div class="footer-social-col">
+          <h4 class="footer-heading">Conecte-se</h4>
+          <div class="footer-social-icons">
+            <a href="https://www.instagram.com/jessicaferreirarit/" target="_blank" rel="noopener" class="footer-social-btn" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="https://www.youtube.com/@jessicaferreirarit" target="_blank" rel="noopener" class="footer-social-btn" aria-label="YouTube">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+            <a href="https://wa.me/5582981847421" target="_blank" rel="noopener" class="footer-social-btn" aria-label="WhatsApp">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+          </div>
+          <p style="color: var(--color-gray-600); font-size: 0.82rem; margin-top: 15px;">
+            Alagoas - Brasil | Atendimento Digital Global
+          </p>
+        </div>
+      </div>
+
+      <!-- Linha Final com Direitos e Créditos -->
+      <div class="footer-bottom">
+        <p>© 2026 Jéssica Ferreira - Todos os direitos reservados.</p>
+        
+        <!-- Crédito Solicitado para Olival Paulino com Link Direto do WhatsApp -->
+        <div class="developer-credit-box">
+          <span>Desenvolvido por</span>
+          <a href="https://wa.me/5582982107078?text=Ol%C3%A1%20Olival,%20vi%20o%20site%20da%20J%C3%A9ssica%20Ferreira%20e%20gostaria%20de%20desenvolver%20um%20projeto!" target="_blank" rel="noopener" class="developer-link">
+            <strong>Olival Paulino</strong>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            (82) 98210-7078
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       BOTÃO FLUTUANTE DO WHATSAPP (FIXO NA TELA)
+       ========================================================================== -->
+  <div class="whatsapp-float-container">
+    <div class="whatsapp-float-tooltip">
+      Fale com a Coach Jéssica 👋
+    </div>
+    <a href="https://wa.me/5582981847421?text=Ol%C3%A1%20J%C3%A9ssica!%20Vim%20pelo%20site%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20o%20Ritbox." target="_blank" rel="noopener" class="whatsapp-float-btn" aria-label="Abrir conversa no WhatsApp">
+      <svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+  </div>
+
+  <!-- JavaScript Principal -->
+  <script src="js/main.js"></script>
+</body>
+</html>
